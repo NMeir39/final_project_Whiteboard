@@ -1,0 +1,61 @@
+.side-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(128, 125, 125);
+  width: 80px;
+  height: 900px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-bar li a {
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.side-bar li a img {
+  width: 100%;
+}
+
+.icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  margin: 10px 0px;
+}
+
+.icon:hover {
+  background-color: rgb(43, 44, 43);
+}
+
+.icon:active {
+  background: #59c0ee;
+}
+
+.color-picker {
+  position: fixed;
+  display: block;
+  z-index: 999;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.brush-up,
+.brush-down {
+  color: white;
+  font-size: 44px;
+  line-height: 20px;
+}
